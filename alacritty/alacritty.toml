@@ -1,0 +1,31 @@
+[env]
+TERM = "alacritty"
+
+[window]
+dynamic_padding = true
+decorations = "Buttonless"
+startup_mode = "Maximized"
+dynamic_title = true
+opacity = 0.95
+blur = true
+padding.x = 10
+padding.y = 10
+option_as_alt = "Both"
+
+[font]
+normal.family = "JetBrainsMono Nerd Font"
+size = 16
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+[mouse]
+hide_when_typing = true
+
+[general]
+import = [
+  #"~/.config/alacritty/themes/catppuccin-latte.toml",
+  "~/.config/alacritty/themes/catppuccin-frappe.toml",
+  #"~/.config/alacritty/themes/catppuccin-macchiato.toml",
+  #"~/.config/alacritty/themes/catppuccin-mocha.toml"
+]
