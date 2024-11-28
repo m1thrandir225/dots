@@ -11,14 +11,14 @@ config = {
 		top = 10,
 		bottom = 10,
 	},
-	window_background_opacity = 0.85,
+	window_background_opacity = 0.98,
 	native_macos_fullscreen_mode = false,
 	macos_window_background_blur = 10,
 	automatically_reload_config = true,
 	enable_tab_bar = true,
 	hide_tab_bar_if_only_one_tab = true,
 	use_fancy_tab_bar = false,
-	tab_max_width = 100,
+	tab_max_width = 80,
 	window_close_confirmation = "NeverPrompt",
 
 	-- Font
