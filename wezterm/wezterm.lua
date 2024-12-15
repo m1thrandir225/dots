@@ -2,6 +2,21 @@ local wezterm = require("wezterm")
 
 local config = wezterm.config_builder()
 
+function get_appearance()
+	if wezterm.gui then
+		return wezterm.gui.get_appearance()
+	end
+	return "Dark"
+end
+
+function scheme_for_appearance(appearance)
+	if appearance:find("Dark") then
+		return "Catppuccin Mocha"
+	else
+		return "Catppuccin Latte"
+	end
+end
+
 config = {
 	enable_scroll_bar = false,
 	window_decorations = "RESIZE",
@@ -36,7 +51,7 @@ config = {
 	webgpu_power_preference = "HighPerformance",
 
 	-- Color scheme
-	color_scheme = "Catppuccin Frappe",
+	color_scheme = scheme_for_appearance(get_appearance()),
 
 	-- Inactive panes
 	inactive_pane_hsb = {
