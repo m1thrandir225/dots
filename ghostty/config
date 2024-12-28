@@ -1,0 +1,13 @@
+font-family = "JetBrainsMono Nerd Font"
+font-size = 16
+theme = light:catppuccin-latte,dark:catppuccin-mocha
+
+background-opacity = 0.95
+background-blur-radius = 20
+
+cursor-style=block
+
+macos-titlebar-style = hidden
+macos-icon-frame = plastic
+window-padding-x = 12
+window-padding-y = 12
