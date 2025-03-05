@@ -1,7 +1,7 @@
 font-family = "JetBrainsMono NFM Bold"
 font-style-bold = true
 font-size = 16
-theme = light:Monokai Pro Light Sun,dark:Monokai Pro Spectrum
+theme = light:GruvboxDarkHard,dark:GruvboxDarkHard
 
 background-opacity = 0.95
 background-blur-radius = 20
