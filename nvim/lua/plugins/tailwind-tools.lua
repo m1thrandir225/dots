@@ -7,5 +7,9 @@ return {
     "nvim-telescope/telescope.nvim", -- optional
     "neovim/nvim-lspconfig", -- optional
   },
-  opts = {}, -- your configuration
+  opts = {
+    cmp = {
+      highlight = "background",
+    },
+  }, -- your configuration
 }

@@ -7,9 +7,13 @@
 vim.opt.wrap = true
 vim.opt.textwidth = 80
 vim.g.lazyvim_php_lsp = "intelephense"
+vim.g.lazyvim_blink_main = false
 return {
   {
     "neovim/nvim-lspconfig",
+    opts = {
+      inlay_hints = { enabled = false },
+    },
     dependencies = {
       "jose-elias-alvarez/typescript.nvim",
       init = function()
