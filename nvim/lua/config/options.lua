@@ -8,7 +8,20 @@ vim.opt.wrap = true
 vim.opt.textwidth = 80
 vim.g.lazyvim_php_lsp = "intelephense"
 vim.g.lazyvim_blink_main = false
+
 vim.g.lazyvim_python_lsp = "pyright"
+
+vim.filetype.add({
+  extension = {
+    gotmpl = "gotmpl",
+  },
+  pattern = {
+    [".*/templates/.*%.tpl"] = "helm",
+    [".*/templates/.*%.gohtml"] = "helm",
+    ["helmfile.*%.ya?ml"] = "helm",
+  },
+})
+
 return {
   {
     "neovim/nvim-lspconfig",
