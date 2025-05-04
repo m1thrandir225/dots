@@ -1,0 +1,48 @@
+{
+    "profiles": [
+        {
+            "complex_modifications": {
+                "rules": [
+                    {
+                        "description": "Remap 6-key Nav Cluster to Insert/Del, PgUp/PgDn, Home/End layout",
+                        "manipulators": [
+                            {
+                                "from": { "key_code": "insert" },
+                                "to": [{ "key_code": "insert" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": { "key_code": "home" },
+                                "to": [{ "key_code": "delete_forward" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": { "key_code": "end" },
+                                "to": [{ "key_code": "page_up" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": { "key_code": "page_up" },
+                                "to": [{ "key_code": "page_down" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": { "key_code": "delete_forward" },
+                                "to": [{ "key_code": "home" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": { "key_code": "page_down" },
+                                "to": [{ "key_code": "end" }],
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name": "Default profile",
+            "selected": true,
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+        }
+    ]
+}
