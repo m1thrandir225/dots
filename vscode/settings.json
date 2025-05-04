@@ -1,0 +1,162 @@
+{
+  //Editor Settings
+  "explorer.sortOrder": "modified",
+  "editor.minimap.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.linkedEditing": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.stablePeek": false,
+  "workbench.editor.enablePreview": false,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": true
+  },
+
+  "workbench.fontAliasing": "antialiased",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.rulers": [80],
+  "editor.wordWrapColumn": 80,
+  "workbench.list.openMode": "doubleClick",
+  "workbench.editor.enablePreviewFromCodeNavigation": false,
+  "workbench.tree.indent": 14,
+  "workbench.tree.renderIndentGuides": "always",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "always",
+  "git.confirmSync": false,
+
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.lineNumbers": "relative",
+  "window.titleBarStyle": "custom",
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "files.associations": {
+    "*.html": "html",
+    "*.blade.php": "html",
+    "*.tpl": "html",
+    "*.module": "php"
+  },
+
+  "files.autoSave": "off",
+  "editor.suggestSelection": "first",
+  "python.languageServer": "Pylance",
+  "explorer.confirmDelete": false,
+
+  //Languages
+
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  //Plugins
+
+  "prettier.arrowParens": "always",
+  "prettier.printWidth": 80,
+  "prettier.singleQuote": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.semi": true,
+  "prettier.tabWidth": 2,
+  "prettier.bracketSpacing": false,
+  "githubPullRequests.createOnPublishBranch": "never",
+
+  "yaml.schemas": {
+    "file:///Users/sebastijanzindl/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": true,
+  "go.coverShowCounts": true,
+  "go.coverMode": "atomic",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off",
+  "go.toolsManagement.autoUpdate": true,
+
+  "vim.statusBarColorControl": false,
+  "editor.stickyScroll.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "terminal.integrated.fontSize": 14,
+  "editor.fontSize": 13,
+  "remote.SSH.remotePlatform": {
+    "192.168.100.254": "linux"
+  },
+  "makefile.configureOnOpen": false,
+  "vim.smartRelativeLine": true,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "githubPullRequests.pullBranch": "never",
+  "vite.autoStart": false,
+  "workbench.productIconTheme": "bongocat",
+  "svelte.enable-ts-plugin": true,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "symbols"
+}
