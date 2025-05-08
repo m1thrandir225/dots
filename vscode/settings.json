@@ -1,5 +1,4 @@
 {
-  //Editor Settings
   "explorer.sortOrder": "modified",
   "editor.minimap.enabled": false,
   "editor.inlineSuggest.enabled": true,
@@ -10,6 +9,8 @@
   "explorer.confirmDragAndDrop": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.stablePeek": false,
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 4,
   "workbench.editor.enablePreview": false,
   "editor.quickSuggestions": {
     "other": "on",
@@ -157,6 +158,6 @@
   "vite.autoStart": false,
   "workbench.productIconTheme": "bongocat",
   "svelte.enable-ts-plugin": true,
-  "workbench.colorTheme": "Catppuccin Mocha",
-  "workbench.iconTheme": "symbols"
+  "workbench.colorTheme": "cursor-dark",
+  "workbench.iconTheme": "vscode-icons"
 }
