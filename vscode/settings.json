@@ -20,8 +20,8 @@
 
   "workbench.fontAliasing": "antialiased",
   "editor.wordWrap": "wordWrapColumn",
-  "editor.rulers": [80],
-  "editor.wordWrapColumn": 80,
+  "editor.rulers": [120],
+  "editor.wordWrapColumn": 120,
   "workbench.list.openMode": "doubleClick",
   "workbench.editor.enablePreviewFromCodeNavigation": false,
   "workbench.tree.indent": 14,
@@ -159,5 +159,7 @@
   "workbench.productIconTheme": "bongocat",
   "svelte.enable-ts-plugin": true,
   "workbench.colorTheme": "cursor-dark",
-  "workbench.iconTheme": "vscode-icons"
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "python.analysis.typeCheckingMode": "standard"
 }
