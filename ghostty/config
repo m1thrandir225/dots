@@ -13,6 +13,5 @@ shell-integration-features = no-cursor,sudo,no-title
 cursor-style = block
 
 macos-titlebar-style = hidden
-macos-icon = paper
 window-padding-x = 12
 window-padding-y = 12
