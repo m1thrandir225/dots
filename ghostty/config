@@ -1,8 +1,15 @@
-font-family = "JetBrainsMono NFM Bold"
-font-style-bold = true
+#fonts
+font-family = "JetBrains Mono"
+font-thicken = false
 font-size = 16
-theme = light:catppuccin-latte,dark:catppuccin-mocha
+font-synthetic-style = true
+font-feature = calt
+font-feature = liga
+font-feature = ss13
+window-inherit-font-size = true
 
+#style 
+theme = light:catppuccin-latte,dark:catppuccin-mocha
 background-opacity = 0.95
 background-blur-radius = 20
 
@@ -12,6 +19,15 @@ window-save-state = always
 shell-integration-features = no-cursor,sudo,no-title
 cursor-style = block
 
+
+#window
 macos-titlebar-style = hidden
 window-padding-x = 12
 window-padding-y = 12
+
+#Other
+shell-integration = zsh
+clipboard-paste-protection = true
+macos-secure-input-indication  = true
+macos-auto-secure-input        = true
+quit-after-last-window-closed  = true
