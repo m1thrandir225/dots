@@ -156,9 +156,7 @@
   },
   "githubPullRequests.pullBranch": "never",
   "vite.autoStart": false,
-  "workbench.productIconTheme": "bongocat",
   "svelte.enable-ts-plugin": true,
-  "workbench.colorTheme": "cursor-dark",
   "workbench.iconTheme": "vscode-icons",
   "vsicons.dontShowNewVersionMessage": true,
   "python.analysis.typeCheckingMode": "standard"
