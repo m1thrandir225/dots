@@ -156,11 +156,12 @@
   "githubPullRequests.pullBranch": "never",
   "vite.autoStart": false,
   "svelte.enable-ts-plugin": true,
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "catppuccin-perfect-latte",
   "vsicons.dontShowNewVersionMessage": true,
   "python.analysis.typeCheckingMode": "standard",
   "editor.fontSize": 15,
   "terminal.explorerKind": "external",
   "github.copilot.nextEditSuggestions.enabled": true,
-  "docker.extension.enableComposeLanguageServer": false
+  "docker.extension.enableComposeLanguageServer": false,
+  "workbench.colorTheme": "Catppuccin Latte"
 }
