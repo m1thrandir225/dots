@@ -5,42 +5,16 @@ return {
     name = "catppuccin",
     opts = {
       transparent_background = true,
+      auto_integrations = true,
       integrations = {
-        aerial = true,
-        alpha = true,
-        cmp = true,
-        dashboard = true,
-        flash = true,
-        grug_far = true,
-        gitsigns = true,
-        headlines = true,
-        illuminate = true,
-        indent_blankline = { enabled = true },
-        leap = true,
-        lsp_trouble = true,
-        mason = true,
-        markdown = true,
-        mini = true,
-        native_lsp = {
-          enabled = true,
-          underlines = {
-            errors = { "undercurl" },
-            hints = { "undercurl" },
-            warnings = { "undercurl" },
-            information = { "undercurl" },
-          },
-        },
-        navic = { enabled = true, custom_bg = "lualine" },
-        neotest = true,
-        neotree = true,
-        noice = true,
-        notify = true,
-        semantic_tokens = true,
-        telescope = true,
-        treesitter = true,
-        treesitter_context = true,
-        which_key = true,
+        bufferline = true,
       },
     },
+    init = function()
+      local ok, mod = pcall(require, "catppuccin.groups.integrations.bufferline")
+      if ok and mod and not mod.get and type(mod.get_theme) == "function" then
+        mod.get = mod.get_theme
+      end
+    end,
   },
 }
