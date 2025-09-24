@@ -9,7 +9,7 @@ font-feature = ss13
 window-inherit-font-size = true
 
 #style 
-theme = light:catppuccin-latte,dark:catppuccin-mocha
+theme = light:catppuccin-latte.conf,dark:catppuccin-mocha.conf
 background-opacity = 0.95
 background-blur-radius = 20
 
