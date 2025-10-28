@@ -1,3 +1,3 @@
 return {
-  { "echasnovski/mini.indentscope", version = "*" },
+  { "nvim-mini/mini.indentscope", version = "*" },
 }
