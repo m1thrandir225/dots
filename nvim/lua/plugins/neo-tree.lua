@@ -8,7 +8,7 @@ return {
       filtered_items = {
         visible = true,
         hide_dotfiles = false,
-        hide_gitignore = true,
+        hide_gitignore = false,
       },
     },
   },
