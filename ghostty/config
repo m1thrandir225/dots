@@ -10,20 +10,20 @@ window-inherit-font-size = true
 
 #style 
 theme = light:catppuccin-latte.conf,dark:catppuccin-mocha.conf
-background-opacity = 0.95
+background-opacity = 0.93
 background-blur-radius = 20
 
 mouse-hide-while-typing = true
 mouse-scroll-multiplier = 2
 window-save-state = always
-shell-integration-features = no-cursor,sudo
+shell-integration-features = no-cursor,sudo, ssh-env
 cursor-style = block
 
 
 #window
 macos-titlebar-style = transparent
-window-padding-x = 12
-window-padding-y = 12
+window-padding-x = 18
+window-padding-y = 18
 
 #Other
 shell-integration = zsh

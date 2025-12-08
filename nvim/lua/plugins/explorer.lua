@@ -1,7 +1,7 @@
 return {
   {
     "nvim-neo-tree/neo-tree.nvim",
-    enabled = false,
+    enabled = true,
     opts = {
       window = {
         position = "right",
@@ -11,22 +11,6 @@ return {
           visible = true,
           hide_dotfiles = false,
           hide_gitignore = false,
-        },
-      },
-    },
-  },
-  {
-    "folke/snacks.nvim",
-    opts = {
-      explorer = { enabled = true, replace_netwr = true },
-      picker = {
-        sources = {
-          explorer = {
-            layout = {
-              auto_hide = { "input" },
-              layout = { position = "right" },
-            },
-          },
         },
       },
     },
