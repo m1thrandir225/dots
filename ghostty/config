@@ -12,10 +12,11 @@ window-inherit-font-size = true
 theme = light:catppuccin-latte.conf,dark:catppuccin-mocha.conf
 background-opacity = 0.93
 background-blur-radius = 20
+maximize = true
 
 mouse-hide-while-typing = true
 mouse-scroll-multiplier = 2
-window-save-state = always
+window-save-state = never
 shell-integration-features = no-cursor,sudo, ssh-env
 cursor-style = block
 
