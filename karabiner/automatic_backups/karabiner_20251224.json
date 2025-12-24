@@ -1,0 +1,64 @@
+{
+  "global": {"show_in_menu_bar": false},
+  "profiles": [
+    {
+      "complex_modifications": {
+        "rules": [
+          {
+            "description": "Remap 6-key Nav Cluster to Insert/Del, PgUp/PgDn, Home/End layout",
+            "manipulators": [
+              {
+                "from": {"key_code": "insert"},
+                "to": [{"key_code": "insert"}],
+                "type": "basic"
+              },
+              {
+                "from": {"key_code": "home"},
+                "to": [{"key_code": "delete_forward"}],
+                "type": "basic"
+              },
+              {
+                "from": {"key_code": "end"},
+                "to": [{"key_code": "page_up"}],
+                "type": "basic"
+              },
+              {
+                "from": {"key_code": "page_up"},
+                "to": [{"key_code": "page_down"}],
+                "type": "basic"
+              },
+              {
+                "from": {"key_code": "delete_forward"},
+                "to": [{"key_code": "home"}],
+                "type": "basic"
+              },
+              {
+                "from": {"key_code": "page_down"},
+                "to": [{"key_code": "end"}],
+                "type": "basic"
+              }
+            ]
+          }
+        ]
+      },
+      "devices": [
+        {
+          "identifiers": {"is_keyboard": true},
+          "simple_modifications": [
+            {
+              "from": {"apple_vendor_top_case_key_code": "keyboard_fn"},
+              "to": [{"key_code": "left_control"}]
+            },
+            {
+              "from": {"key_code": "left_control"},
+              "to": [{"apple_vendor_top_case_key_code": "keyboard_fn"}]
+            }
+          ]
+        }
+      ],
+      "name": "Default profile",
+      "selected": true,
+      "virtual_hid_keyboard": {"keyboard_type_v2": "ansi"}
+    }
+  ]
+}

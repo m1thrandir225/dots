@@ -9,7 +9,7 @@ vim.opt.textwidth = 80
 vim.g.lazyvim_php_lsp = "intelephense"
 vim.g.lazyvim_blink_main = false
 
-vim.g.lazyvim_python_lsp = "pyright"
+vim.g.lazyvim_python_lsp = "basedpyright"
 vim.g.lazyvim_prettier_needs_config = true
 
 vim.filetype.add({
