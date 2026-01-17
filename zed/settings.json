@@ -7,22 +7,44 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "features": {
+    "edit_prediction_provider": "zed",
+  },
+  "chat_panel": {
+    "dock": "left",
+  },
+  "project_panel": {
+    "dock": "right",
+  },
+  "outline_panel": {
+    "dock": "right",
+  },
+  "notification_panel": {
+    "dock": "left",
+  },
+  "git_panel": {
+    "dock": "right",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
   "agent": {
-    "default_profile": "ask",
+    "dock": "left",
+    "default_profile": "write",
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "claude-sonnet-4"
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5-latest",
     },
-    "model_parameters": []
+    "model_parameters": [],
   },
   "edit_predictions": {
-    "mode": "subtle"
+    "mode": "subtle",
   },
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "icon_theme": {
     "mode": "system",
     "light": "Catppuccin Latte",
-    "dark": "Zed (Default)"
+    "dark": "Catppuccin Mocha",
   },
   "vim_mode": true,
   "base_keymap": "VSCode",
@@ -31,13 +53,39 @@
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte",
-    "dark": "Catppuccin Latte"
+    "dark": "Catppuccin Mocha",
   },
   "lsp": {
-    "wakatime": {
-      "initialization_options": {
-        "api-key": ""
-      }
-    }
-  }
+    "wakatime": {},
+  },
+  "auto_install_extensions": {
+    "git-firefly": true,
+    "ruff": true,
+    "toml": true,
+    "golangci-lint": true,
+    "gosum": true,
+    "php": true,
+    "vue": true,
+    "dockerfile": true,
+    "docker-compose": true,
+    "catppuccin": true,
+    "catppuccin-icons": true,
+    "java": true,
+    "sql": true,
+    "make": true,
+    "xml": true,
+  },
+  "terminal": {
+    "detect_venv": {
+      "on": {
+        "directories": [
+          ".env",
+          "env",
+          "venv",
+          ".venv"
+        ],
+        "activate_script": "default",
+      },
+    },
+  },
 }
