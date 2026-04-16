@@ -7,85 +7,125 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "features": {
-    "edit_prediction_provider": "zed",
-  },
-  "chat_panel": {
-    "dock": "left",
-  },
-  "project_panel": {
-    "dock": "right",
-  },
-  "outline_panel": {
-    "dock": "right",
-  },
-  "notification_panel": {
-    "dock": "left",
-  },
-  "git_panel": {
-    "dock": "right",
-  },
-  "collaboration_panel": {
-    "dock": "left",
-  },
-  "agent": {
-    "dock": "left",
-    "default_profile": "write",
-    "default_model": {
-      "provider": "anthropic",
-      "model": "claude-sonnet-4-5-latest",
+    "preview_tabs": {
+        "enabled": false,
+        "enable_keep_preview_on_code_navigation": false,
     },
-    "model_parameters": [],
-  },
-  "edit_predictions": {
-    "mode": "subtle",
-  },
-  "buffer_font_family": "JetBrainsMono Nerd Font",
-  "icon_theme": {
-    "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha",
-  },
-  "vim_mode": true,
-  "base_keymap": "VSCode",
-  "ui_font_size": 16,
-  "buffer_font_size": 15,
-  "theme": {
-    "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha",
-  },
-  "lsp": {
-    "wakatime": {},
-  },
-  "auto_install_extensions": {
-    "git-firefly": true,
-    "ruff": true,
-    "toml": true,
-    "golangci-lint": true,
-    "gosum": true,
-    "php": true,
-    "vue": true,
-    "dockerfile": true,
-    "docker-compose": true,
-    "catppuccin": true,
-    "catppuccin-icons": true,
-    "java": true,
-    "sql": true,
-    "make": true,
-    "xml": true,
-  },
-  "terminal": {
-    "detect_venv": {
-      "on": {
-        "directories": [
-          ".env",
-          "env",
-          "venv",
-          ".venv"
-        ],
-        "activate_script": "default",
-      },
+    "relative_line_numbers": "enabled",
+    "sticky_scroll": {
+        "enabled": false,
     },
-  },
+    "gutter": {
+        "line_numbers": true,
+    },
+    "minimap": {
+        "show": "never",
+    },
+    "autosave": "off",
+    "file_types": {
+        "html": ["*.html", "*.blade.php", "*.tpl"],
+        "php": ["*.module"],
+    },
+    "linked_edits": true,
+    "show_edit_predictions": true,
+    "wrap_guides": [120],
+    "preferred_line_length": 120,
+    "soft_wrap": "prefer_line",
+    "tab_size": 4,
+    "agent_servers": {
+        "github-copilot": {
+            "type": "registry",
+        },
+        "opencode": {
+            "type": "registry",
+        },
+    },
+    "chat_panel": {
+        "dock": "left",
+    },
+    "project_panel": {
+        "dock": "right",
+    },
+    "outline_panel": {
+        "dock": "right",
+    },
+    "notification_panel": {
+        "dock": "left",
+    },
+    "git_panel": {
+        "dock": "right",
+    },
+    "collaboration_panel": {
+        "dock": "left",
+    },
+    "agent": {
+        "dock": "left",
+        "default_profile": "write",
+        "default_model": {
+            "effort": "medium",
+            "enable_thinking": true,
+            "provider": "zed.dev",
+            "model": "gpt-5.3-codex",
+        },
+        "model_parameters": [],
+    },
+    "edit_predictions": {
+        "provider": "copilot",
+        "mode": "subtle",
+    },
+    "buffer_font_family": "JetBrains Mono",
+    "icon_theme": {
+        "mode": "system",
+        "light": "Zed (Default)",
+        "dark": "Colored Zed Icons Theme Dark",
+    },
+    "vim_mode": true,
+    "base_keymap": "VSCode",
+    "ui_font_size": 16,
+    "buffer_font_size": 15,
+    "theme": {
+        "mode": "light",
+        "light": "Min Light (Solid)",
+        "dark": "Snazzy Theme",
+    },
+    "auto_install_extensions": {
+        "git-firefly": true,
+        "ruff": true,
+        "toml": true,
+        "golangci-lint": true,
+        "gosum": true,
+        "php": true,
+        "vue": true,
+        "dockerfile": true,
+        "docker-compose": true,
+        "catppuccin": true,
+        "catppuccin-icons": true,
+        "java": true,
+        "sql": true,
+        "make": true,
+        "xml": true,
+    },
+    "languages": {
+        "Python": {
+            "linked_edits": true,
+            "show_edit_predictions": true,
+            "wrap_guides": [120],
+            "preferred_line_length": 120,
+            "soft_wrap": "prefer_line",
+            "tab_size": 4,
+        },
+    },
+    "terminal": {
+        "font_family": "JetBrainsMono Nerd Font",
+        "font_size": 14.0,
+        "env": {
+            "FIG_NEW_SESSION": "\"1\"",
+        },
+        "detect_venv": {
+            "on": {
+                "directories": [".env", "env", "venv", ".venv"],
+                "activate_script": "default",
+            },
+        },
+    },
 }
