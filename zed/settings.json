@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "session": {
+        "trust_all_worktrees": true
+    },
     "preview_tabs": {
         "enabled": false,
         "enable_keep_preview_on_code_navigation": false,
@@ -23,8 +26,18 @@
     },
     "autosave": "off",
     "file_types": {
-        "html": ["*.html", "*.blade.php", "*.tpl"],
-        "php": ["*.module"],
+        "html": [
+            "*.html",
+            "*.blade.php",
+            "*.tpl",
+            "*.html",
+            "*.blade.php",
+            "*.tpl"
+        ],
+        "php": [
+            "*.module",
+            "*.module"
+        ],
     },
     "linked_edits": true,
     "show_edit_predictions": true,
@@ -33,6 +46,9 @@
     "soft_wrap": "prefer_line",
     "tab_size": 4,
     "agent_servers": {
+        "cursor": {
+            "type": "registry"
+        },
         "github-copilot": {
             "type": "registry",
         },
@@ -70,7 +86,7 @@
         "model_parameters": [],
     },
     "edit_predictions": {
-        "provider": "copilot",
+        "provider": "zed",
         "mode": "subtle",
     },
     "buffer_font_family": "JetBrains Mono",
