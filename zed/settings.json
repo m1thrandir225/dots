@@ -8,7 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
     "session": {
-        "trust_all_worktrees": true
+        "trust_all_worktrees": true,
     },
     "preview_tabs": {
         "enabled": false,
@@ -26,18 +26,8 @@
     },
     "autosave": "off",
     "file_types": {
-        "html": [
-            "*.html",
-            "*.blade.php",
-            "*.tpl",
-            "*.html",
-            "*.blade.php",
-            "*.tpl"
-        ],
-        "php": [
-            "*.module",
-            "*.module"
-        ],
+        "html": ["*.html", "*.blade.php", "*.tpl", "*.html", "*.blade.php", "*.tpl"],
+        "php": ["*.module", "*.module"],
     },
     "linked_edits": true,
     "show_edit_predictions": true,
@@ -47,7 +37,7 @@
     "tab_size": 4,
     "agent_servers": {
         "cursor": {
-            "type": "registry"
+            "type": "registry",
         },
         "github-copilot": {
             "type": "registry",
@@ -91,7 +81,7 @@
     },
     "buffer_font_family": "JetBrains Mono",
     "icon_theme": {
-        "mode": "system",
+        "mode": "dark",
         "light": "Zed (Default)",
         "dark": "Colored Zed Icons Theme Dark",
     },
@@ -101,7 +91,7 @@
     "buffer_font_size": 15,
     "theme": {
         "mode": "light",
-        "light": "Min Light (Solid)",
+        "light": "Ayu Light",
         "dark": "Snazzy Theme",
     },
     "auto_install_extensions": {
