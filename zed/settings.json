@@ -51,9 +51,11 @@
     },
     "project_panel": {
         "dock": "right",
+        "auto_fold_dirs": false,
+        "git_status": true,
     },
     "outline_panel": {
-        "dock": "right",
+        "dock": "left",
     },
     "notification_panel": {
         "dock": "left",
@@ -83,16 +85,16 @@
     "icon_theme": {
         "mode": "dark",
         "light": "Zed (Default)",
-        "dark": "Colored Zed Icons Theme Dark",
+        "dark": "Zed (Default)",
     },
     "vim_mode": true,
     "base_keymap": "VSCode",
-    "ui_font_size": 16,
-    "buffer_font_size": 15,
+    "ui_font_size": 17,
+    "buffer_font_size": 16.5,
     "theme": {
         "mode": "light",
         "light": "Ayu Light",
-        "dark": "Snazzy Theme",
+        "dark": "Ayu Dark",
     },
     "auto_install_extensions": {
         "git-firefly": true,
@@ -133,5 +135,19 @@
                 "activate_script": "default",
             },
         },
+    },
+    "file_finder": {
+        "modal_max_width": "medium",
+    },
+    "which_key": {
+        "enabled": true,
+        "delay_ms": 500,
+    },
+    "tab_bar": {
+        "show": true,
+    },
+    "indent_guides": {
+        "enabled": true,
+        "coloring": "indent_aware",
     },
 }
