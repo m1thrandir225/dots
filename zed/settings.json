@@ -53,6 +53,9 @@
     "soft_wrap": "prefer_line",
     "tab_size": 4,
     "agent_servers": {
+        "claude-acp": {
+            "type": "registry"
+        },
         "opencode": {
             "type": "registry"
         },
@@ -95,10 +98,10 @@
         "dock": "left",
         "default_profile": "write",
         "default_model": {
-            "effort": "xhigh",
+            "effort": "high",
             "enable_thinking": true,
-            "provider": "zed.dev",
-            "model": "gpt-5.5",
+            "provider": "copilot_chat",
+            "model": "gpt-5.2-codex",
         },
         "model_parameters": [],
     },
@@ -120,7 +123,7 @@
     "theme": {
         "mode": "light",
         "light": "Ayu Light",
-        "dark": "Ayu Dark",
+        "dark": "Catppuccin Mocha",
     },
     "auto_install_extensions": {
         "git-firefly": true,
